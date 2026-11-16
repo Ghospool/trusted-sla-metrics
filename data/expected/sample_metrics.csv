@@ -1,0 +1,10 @@
+source_system,ticket_id,as_of,first_response_minutes,resolution_minutes,response_breached,resolution_breached,backlog_age_minutes,reopened_count,status
+atlas_service,T001,2025-01-08T00:00:00Z,15,60,false,false,,0,resolved
+atlas_service,T002,2025-01-08T00:00:00Z,20,300,false,true,,1,resolved
+atlas_service,T003,2025-01-08T00:00:00Z,30,60,false,false,240,0,waiting
+atlas_service,T004,2025-01-08T00:00:00Z,,30,true,false,30,0,open
+atlas_service,T005,2025-01-08T00:00:00Z,0,20,false,false,,0,resolved
+beacon_desk,T001,2025-01-08T00:00:00Z,30,120,false,false,,0,resolved
+beacon_desk,T002,2025-01-08T00:00:00Z,60,180,false,false,2880,1,open
+beacon_desk,T003,2025-01-08T00:00:00Z,,60,true,false,840,0,waiting
+beacon_desk,T004,2025-01-08T00:00:00Z,10,60,false,false,,0,resolved

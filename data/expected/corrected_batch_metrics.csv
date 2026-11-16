@@ -1,0 +1,2 @@
+source_system,ticket_id,as_of,first_response_minutes,resolution_minutes,response_breached,resolution_breached,backlog_age_minutes,reopened_count,status
+atlas_service,BAD001,2025-01-08T00:00:00Z,10,40,false,false,,0,resolved

@@ -1,0 +1,10 @@
+source_system,ticket_id,created_at,priority,team_id,subject
+atlas_service,T001,2025-01-07T22:00:00Z,P1,service,Exact response and resolution equality
+atlas_service,T002,2025-01-07T12:00:00Z,P2,platform,Waiting and reopened cumulative breach
+atlas_service,T003,2025-01-07T20:00:00Z,P3,workplace,Still waiting at cutoff
+atlas_service,T004,2025-01-07T23:30:00Z,P1,service,Unanswered open response breach
+atlas_service,T005,2025-01-07T23:00:00Z,P1,service,Repeated response and same-time state transitions
+beacon_desk,T001,2025-01-07T22:00:00Z,P2,platform,Same ID different source response equality
+beacon_desk,T002,2025-01-06T00:00:00Z,P4,workplace,Reopened and still open
+beacon_desk,T003,2025-01-07T10:00:00Z,P3,service,Unanswered while waiting
+beacon_desk,T004,2025-01-07T00:00:00Z,P3,platform,Late historical waiting arrives separately

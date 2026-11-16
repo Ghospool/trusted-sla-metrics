@@ -1,0 +1,2 @@
+source_system,ticket_id,created_at,priority,team_id,subject
+atlas_service,BAD001,2025-01-07T23:00:00Z,P1,service,Fictional priority correction example

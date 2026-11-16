@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-16T19:24:10.688Z",
+  "artifact": {
+    "file": "knime/Trusted_SLA_Metrics_Public.knwf",
+    "bytes": 15187,
+    "sha256": "dc958c555a86d629a76e5a35e67b5c35481eb39a018bcc7a138d554a6d45370e"
+  },
+  "originalArtifact": {
+    "file": "knime/Trusted_SLA_Metrics.knwf",
+    "bytes": 62611,
+    "sha256": "be7b0ec346a6f34f98286ad4cf5637fb5d6e2f8ddba85e58f34012a92a7649db"
+  },
+  "runtime": {
+    "knime": "5.12.0 LTS",
+    "pythonIntegration": "5.12.0",
+    "python": "3.12.16",
+    "psycopg": "3.3.9",
+    "postgresql": "15.13",
+    "versionEvidence": "Previously user-observed local setup; not a new runtime-version probe."
+  },
+  "verification": {
+    "freshReimportVerified": true,
+    "importedWorkflow": "SLA_Public_Release_Check/KNIME_Personal_Project_run",
+    "scope": "Separate group on the same machine and local KNIME workspace; workflow executed and saved locally, then persisted files inspected.",
+    "allGreenAndSaved": true,
+    "savedExecutedNodeCount": 8,
+    "unchangedPythonScriptCount": 5,
+    "workflowRelativeWritersVerified": true,
+    "outputChecks": "Metrics equal prior verified non-run-ID fields; rejection counters, flags, reasons and payloads match apart from fresh fictional source identity.",
+    "externalDependencyHashesVerified": 31,
+    "inspectionExecutedDatabaseQueries": false,
+    "inspectionExecutedNodeScripts": false,
+    "fullAutomatedTestSuiteRerun": false,
+    "originalAndPublicArchivesUnchanged": true
+  },
+  "nodes": [
+    {
+      "node": "CSV Writer (#10)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.109Z",
+      "scriptHashes": [],
+      "writer": {
+        "fileSystemType": "RELATIVE",
+        "specifier": "knime.workflow.data",
+        "path": "sla_metrics.csv"
+      }
+    },
+    {
+      "node": "CSV Writer (#11)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.112Z",
+      "scriptHashes": [],
+      "writer": {
+        "fileSystemType": "RELATIVE",
+        "specifier": "knime.workflow.data",
+        "path": "rejected_batch_evidence.csv"
+      }
+    },
+    {
+      "node": "Python Script (#1)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:09:04.518Z",
+      "scriptHashes": [
+        {
+          "key": "script",
+          "sha256": "d7ec7cec3420895b019ea06ebe93b6000db5fb2fc3a2fdef55d6598971c8cd41"
+        }
+      ]
+    },
+    {
+      "node": "Python Script (#6)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.075Z",
+      "scriptHashes": [
+        {
+          "key": "script",
+          "sha256": "4f2e4fc1f0f69fe7e3cbcddc58edcefe0c158dda9d4481d21bcac9282b7d4b10"
+        }
+      ]
+    },
+    {
+      "node": "Python Script (#7)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.085Z",
+      "scriptHashes": [
+        {
+          "key": "script",
+          "sha256": "416e8a585ce40a18d6d4600e0f2b587fe3241fd9afd0f7fcbe06f1c183fe8d6c"
+        }
+      ]
+    },
+    {
+      "node": "Python Script (#8)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.094Z",
+      "scriptHashes": [
+        {
+          "key": "script",
+          "sha256": "e2ea6d944b6568c57b3327c279eda766ce794fc2ad0a8c5ab4ff80fc4005f2c0"
+        }
+      ]
+    },
+    {
+      "node": "Python Script (#9)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:19:51.105Z",
+      "scriptHashes": [
+        {
+          "key": "script",
+          "sha256": "3026a549ee0d2f26928de11b190e355e832d9885acb2c1c146c551de74052f9d"
+        }
+      ]
+    },
+    {
+      "node": "Table Creator (#2)",
+      "state": "EXECUTED",
+      "settingsModified": "2026-11-16T19:09:04.534Z",
+      "scriptHashes": []
+    }
+  ],
+  "outputs": [
+    {
+      "file": "sla_metrics.csv",
+      "rows": 10,
+      "archiveRunId": "d57ab0b4-7e31-458b-a892-4db138142e89",
+      "previousRunId": "f0692e48-10fb-4b91-9b16-3cdd337ca847",
+      "freshRunId": "1a0396bf-b6f6-4856-82d8-847b5bbfc706",
+      "sha256": "7ec1dab9fe83ab0a5fae901124ab97cfb23b4fba36dffe8e87469837467066a6",
+      "bytes": 1462,
+      "modified": "2026-11-16T19:18:54.242Z"
+    },
+    {
+      "file": "rejected_batch_evidence.csv",
+      "rows": 3,
+      "archiveRunId": "6f8e6d0c-71ba-45d2-a81c-d3e2d5175feb",
+      "previousRunId": "2c16d5ea-3c0a-4b95-bd28-753353e86828",
+      "freshRunId": "81dec695-5cd9-4579-91e4-12bdc77fa737",
+      "sha256": "f05664afbcc2bedc2377cc16f6bf0a3dc834ff17d0ad7d2f30513d410c80cf54",
+      "bytes": 1271,
+      "modified": "2026-11-16T19:18:59.044Z"
+    }
+  ],
+  "externalDependencies": [
+    {
+      "file": "data/expected/after_late_arrival_metrics.csv",
+      "sha256": "491453baa5cb6dadc98d49cb5099da389a50ed7f685d89cb9366aa291ef81a6b"
+    },
+    {
+      "file": "data/expected/corrected_batch_metrics.csv",
+      "sha256": "597ac534772eb99edd66e03cb7cdd62066fa078b120405d66c66f15943e9c822"
+    },
+    {
+      "file": "data/expected/invalid_batch_rejections.csv",
+      "sha256": "34ade67d1eea78baa2786be3ea1afd7d3f97f57c0e72f2bc0d3e2779467ceb3b"
+    },
+    {
+      "file": "data/expected/sample_metrics.csv",
+      "sha256": "a8b64e90932544d5d29dfd47b4d885c8e9c666efb83981e36a55f54e06e9861a"
+    },
+    {
+      "file": "data/sample/corrected_batch/events.csv",
+      "sha256": "22a1c52ff1b990f43e097e2eb3eb7b823c7e952fce228ca037dbc54c142ff12e"
+    },
+    {
+      "file": "data/sample/corrected_batch/policies.csv",
+      "sha256": "efac9b487c7fb59a938411c0d9f5a7fe74f6ef0a26fd991025ae96b8d39016ac"
+    },
+    {
+      "file": "data/sample/corrected_batch/teams.csv",
+      "sha256": "414cc3b52856320ef48573717658d62ec27899f96b863b174407bfac9f277312"
+    },
+    {
+      "file": "data/sample/corrected_batch/tickets.csv",
+      "sha256": "8ad58225a91c6d6f03e9a05aab80a2615509685e72eb468a9599e3cc59012a59"
+    },
+    {
+      "file": "data/sample/events.csv",
+      "sha256": "ebbc3a3e0c7ba07d2e3bd680cb9b02f35e789b9e9d41d4f2cc6c5ef24acf337d"
+    },
+    {
+      "file": "data/sample/invalid_batch/events.csv",
+      "sha256": "22a1c52ff1b990f43e097e2eb3eb7b823c7e952fce228ca037dbc54c142ff12e"
+    },
+    {
+      "file": "data/sample/invalid_batch/policies.csv",
+      "sha256": "efac9b487c7fb59a938411c0d9f5a7fe74f6ef0a26fd991025ae96b8d39016ac"
+    },
+    {
+      "file": "data/sample/invalid_batch/teams.csv",
+      "sha256": "414cc3b52856320ef48573717658d62ec27899f96b863b174407bfac9f277312"
+    },
+    {
+      "file": "data/sample/invalid_batch/tickets.csv",
+      "sha256": "83ca570e1824ab35d03a3b146141c172f9215c0be3274c059ff64c734010c997"
+    },
+    {
+      "file": "data/sample/late_event_batch/events.csv",
+      "sha256": "134c71fc87eb3261ff9f7f9bc3df7501b33483baa4069577b757aeb2f7d84d8b"
+    },
+    {
+      "file": "data/sample/late_event_batch/policies.csv",
+      "sha256": "efac9b487c7fb59a938411c0d9f5a7fe74f6ef0a26fd991025ae96b8d39016ac"
+    },
+    {
+      "file": "data/sample/late_event_batch/teams.csv",
+      "sha256": "414cc3b52856320ef48573717658d62ec27899f96b863b174407bfac9f277312"
+    },
+    {
+      "file": "data/sample/late_event_batch/tickets.csv",
+      "sha256": "18d9828b7246af33d42c2a92dcf5e2c0edc9b9aba7c20765088d56a5e3c7bc78"
+    },
+    {
+      "file": "data/sample/policies.csv",
+      "sha256": "efac9b487c7fb59a938411c0d9f5a7fe74f6ef0a26fd991025ae96b8d39016ac"
+    },
+    {
+      "file": "data/sample/supplemental/late_events.csv",
+      "sha256": "134c71fc87eb3261ff9f7f9bc3df7501b33483baa4069577b757aeb2f7d84d8b"
+    },
+    {
+      "file": "data/sample/teams.csv",
+      "sha256": "414cc3b52856320ef48573717658d62ec27899f96b863b174407bfac9f277312"
+    },
+    {
+      "file": "data/sample/tickets.csv",
+      "sha256": "748be6c5f77843a6f563f24bfaf22e7329f80b15f402fcdd0867904fe73a791c"
+    },
+    {
+      "file": "scripts/knime_rejection_check.py",
+      "sha256": "9c41fbba791a362be983451f3340eda5a811a7cc879c0505f0c4c405841f53af"
+    },
+    {
+      "file": "scripts/launch_knime.py",
+      "sha256": "c693189ab813a8b3a0e60a0fde886f636f2b504e02eeb00c6a9e7b344fcb30d5"
+    },
+    {
+      "file": "sql/001_schema.sql",
+      "sha256": "91d29b919271b3f969784af787bed93b7aaf82dff07abd9b94a7c3a4b7adc8d1"
+    },
+    {
+      "file": "sql/002_metrics.sql",
+      "sha256": "b9bb5adefbc06619264543d75b2966ca67ed5f78fe2ce7f1adf80ba031739dcf"
+    },
+    {
+      "file": "sql/003_quality_checks.sql",
+      "sha256": "86e0f5351c9808270feef216e81f37e9c835e48a8b865eaaa978d897441f163b"
+    },
+    {
+      "file": "src/sla_pipeline/__init__.py",
+      "sha256": "ce70307e6b9fd5182bc350e1c2c99e6ae2d0bf95d73ba90547013bd4104c0272"
+    },
+    {
+      "file": "src/sla_pipeline/__main__.py",
+      "sha256": "375dfea2fafc3af0c46fe879cfc34e8b20636768ea4d2be996b45cb13eec5a56"
+    },
+    {
+      "file": "src/sla_pipeline/generate.py",
+      "sha256": "0698430fdcfd9a4cf158f7e5b39ee8c6ab4863fc1e2eb8a6bfc9ffdbc674c667"
+    },
+    {
+      "file": "src/sla_pipeline/model.py",
+      "sha256": "4438f4ad00978fbc857034a4010fc75ae346db862be63e43011fcf167f5fdae4"
+    },
+    {
+      "file": "src/sla_pipeline/postgres.py",
+      "sha256": "ae7a0d91889754d9e8beae210aa17ba2a1234449c5cedc0e380f2a32d43d6904"
+    }
+  ],
+  "limitations": [
+    "Same-machine separate-group execution, not an independently configured workspace or new-machine test.",
+    "Runtime versions are from prior observed local setup and were not re-probed.",
+    "The full project editable installation, configured Python environment and prepared local PostgreSQL database remain runtime dependencies.",
+    "No deployment, production or performance validation is claimed."
+  ]
+}

@@ -1,0 +1,3 @@
+source_system,event_id,ticket_id,occurred_at,event_type
+beacon_desk,B004-02,T004,2025-01-07T00:20:00Z,waiting
+beacon_desk,B004-03,T004,2025-01-07T00:40:00Z,resumed

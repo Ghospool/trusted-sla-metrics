@@ -1,0 +1,5 @@
+priority,response_target_minutes,resolution_target_minutes
+P1,15,60
+P2,30,240
+P3,60,480
+P4,120,1440

@@ -1,0 +1,4 @@
+entity,row_number,reason
+tickets,2,unknown priority
+events,2,unknown ticket for source_system
+events,3,unknown ticket for source_system

@@ -1,0 +1,3 @@
+source_system,event_id,ticket_id,occurred_at,event_type
+atlas_service,INVALID-01,BAD001,2025-01-07T23:10:00Z,responded
+atlas_service,INVALID-02,BAD001,2025-01-07T23:40:00Z,resolved
