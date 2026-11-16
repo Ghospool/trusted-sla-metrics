@@ -191,4 +191,5 @@ Do not claim business impact from simulated records, or claim unexecuted integra
 
 Project code and documentation are offered under the [MIT License](LICENSE), copyright 2026 Ghospool. Python, PostgreSQL, KNIME, and other third-party dependencies retain their own licenses and are not redistributed as installed environments or application binaries.
 
-The original export is not included. The public archive replaces personal author/editor metadata with Ghospool and omits the embedded preview assets. That exact archive has its own fresh local re-import verification under `knime/evidence/public-reimport/`; the original archive's verification is historical context, not a substitute.
+The original export is not included. The public archive replaces personal author/editor metadata and omits the embedded preview assets.
+That exact archive has its own fresh local re-import verification under `knime/evidence/public-reimport/`; the original archive's verification is historical context, not a substitute.
